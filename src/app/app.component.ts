@@ -14,7 +14,7 @@ export class AppComponent implements AfterViewInit {
     WebViewer(
       {
         path: 'assets/lib', // WebViewer'ın kütüphaneleri için yol (dist içine de koyabilirsin)
-        licenseKey: 'demo:1739967902436:617aa52303000000001e68fd669af3db2a6192061dd5e42b349699df50', // Ücretsiz sürümde gerekmeyebilir
+        licenseKey: 'your-license-key', // Ücretsiz sürümde gerekmeyebilir
         initialDoc: 'assets/files/ise-giris-evrakları.docx', // Başlangıç belgesi
         fullAPI: true,
         enableOfficeEditing: true
